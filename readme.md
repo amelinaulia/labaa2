@@ -31,11 +31,11 @@
 			int x, y, z;
 
 			printf("цена конфет: %d\n", K);
-			scanf_s("%d\n", &x);
+			scanf("%d\n", &x);
 			printf("цена печенья: %d\n", P);
-			scanf_s("%d\n", &y);
+			scanf("%d\n", &y);
 			printf("цена яблок: %d\n", A);
-			scanf_s("%d\n", &z);
+			scanf("%d\n", &z);
 			printf("Сумма: %d\n", (K * x) + (P * y) + (A * z));
 		}
 ## 3. Результат работы программы
